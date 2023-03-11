@@ -31,6 +31,9 @@
     & input {
       margin: 0;
     }
+        
+   
+
   }
   &__bloc-button {
     display: flex;
@@ -45,4 +48,9 @@
   &__confirmation {
     padding: 0.5rem;
   }
+}
+@media (max-width: 530px) {
+ .formulaire_container__bloc-input {
+  display: block;
+ }
 }
